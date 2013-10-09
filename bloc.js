@@ -1,4 +1,3 @@
-console.log('yo');
 if (window.location.pathname.indexOf("/message_threads") != -1) {
   var student_url = $($('.subject_line a')[0]).attr('href');
   var checkpoint_name = $($('h4')[2]).html().match(/(.+) discussion/)[1];  
