@@ -1,0 +1,17 @@
+{
+  "name": "Bloc",
+  "description": "Link to student checkpoint faster.",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.bloc.io/*"],
+      "js": ["jquery.js", "bloc.js"]
+    }
+  ],
+  "permissions": [
+    "http://*/",
+    "https://*/",
+    "storage"
+  ],
+  "manifest_version": 2
+}
