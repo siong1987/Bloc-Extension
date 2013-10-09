@@ -1,7 +1,7 @@
 {
   "name": "Bloc",
   "description": "Link to student checkpoint faster.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "content_scripts": [
     {
       "matches": ["https://www.bloc.io/*"],
